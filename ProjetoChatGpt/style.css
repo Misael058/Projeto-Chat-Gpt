@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+     min-width: 100%;
+     min-height: 100%;
+     background-color: rgb(17, 16, 16);
+     color: white;
+
+}
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+}
+
+#formPergunta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+label {
+    font-size: 20px;
+    margin: 15px;
+    font-weight: bolder;
+    color: red;
+
+}
+
+textarea {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+input {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    transition: 1.2s;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-top: 18%;
+}
+
+input:hover {
+    background-color: red;
+
+}
+
+#resultado, #quiz {
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+}
+
+#quiz {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.chatResultado{
+    margin-top: 1rem;
+    border: solid 2px white;
+    border-radius: 8px;
+    padding: 0.9rem;
+}
